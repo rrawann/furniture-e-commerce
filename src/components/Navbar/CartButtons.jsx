@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaShoppingCart, FaUserMinus, FaUserPlus } from 'react-icons/fa';
+import { FaShoppingCart, FaUserPlus } from 'react-icons/fa';
 import Link from "next/link"
 // import { useProductsContext } from '../context/products_context';
 // import { useCartContext } from '../context/cart_context';
