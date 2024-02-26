@@ -11,18 +11,18 @@ const CartButtons = () => {
 //   const { loginWithRedirect, myUser, logout } = useUserContext();
 
   return (
-    <div className="grid grid-cols-2 gap-4 items-center w-56">
+    <div className="grid grid-cols-2 gap-2">
       <Link
         href="/cart"
         // onClick={closeSidebar}
-        className="text-gray-500 text-lg flex items-center"
+        className="p-2 text-gray-500 text-lg flex items-center hover:bg-bgCustomColor hover:rounded-lg hover:text-white"
       >
         Cart
-        <span className="flex items-center ml-2">
+        <span className="flex  ml-2">
           <FaShoppingCart className="h-6 w-6" />
-          <span className="bg-primary-500 text-white rounded-full w-6 h-6 flex items-center justify-center ml-1 text-xs">
-            {/* {total_items} */}
-          </span>
+          {/* <span className="bg-primary-500 text-white rounded-full w-6 h-6 flex items-center justify-center ml-1 text-xs">
+            {total_items}
+          </span> */}
         </span>
       </Link>
       {/* {myUser ? (
@@ -47,10 +47,11 @@ const CartButtons = () => {
       )} */}
           <button
           type="button"
-          className="text-gray-500 text-lg flex items-center bg-transparent border-transparent"
+          // className="p-2 text-gray-500 text-lg flex hover:bg-bgCustomColor hover:rounded-lg hover:text-white"
+          className="p-2 text-gray-500 text-lg flex items-center hover:bg-bgCustomColor hover:rounded-lg hover:text-white"
         //   onClick={loginWithRedirect}
         >
-          Login <FaUserPlus className="h-6 w-6 ml-1" />
+          Login <span className='ml-2'><FaUserPlus className="h-6 w-6" /></span>
         </button>
     </div>
   );
