@@ -7,7 +7,7 @@ function Footer() {
             <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
-                        <img src="https://shopo-ecom.vercel.app/_next/image?url=https%3A%2F%2Fmamunuiux.com%2Fshopo%2Fuploads%2Fwebsite-images%2Flogo-2022-11-22-11-19-02-4634.png&w=384&q=75" class="mr-5 h-6 sm:h-9" alt="logo" />
+                        <img src="https://img.freepik.com/free-vector/minimalist-furniture-logo-with-armchair-lamp_23-2148477507.jpg" class="mr-5 h-6 sm:h-9" alt="logo" />
                         <p class="max-w-xs mt-4 text-sm text-gray-600">
                             Join our growing community of satisfied customers and experience the convenience of online shopping at its best.
                         </p>
