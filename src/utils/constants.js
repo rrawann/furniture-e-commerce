@@ -1,5 +1,8 @@
 import React from 'react'
 // import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/fa'
+import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../../public/assets/icons";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../../public/assets/images";
+
 export const links = [
   {
     id: 1,
@@ -20,27 +23,22 @@ export const links = [
 
 export const services = [
   {
-    id: 1,
-    // icon: <GiCompass />,
-    title: 'mission',
-    text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      imgURL: truckFast,
+      label: "Free shipping",
+      subtext: "Enjoy seamless shopping with our complimentary shipping service."
   },
   {
-    id: 2,
-    // icon: <GiDiamondHard />,
-    title: 'vision',
-    text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      imgURL: shieldTick,
+      label: "Secure Payment",
+      subtext: "Experience worry-free transactions with our secure payment options."
   },
   {
-    id: 3,
-    // icon: <GiStabbedNote />,
-    title: 'history',
-    text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      imgURL: support,
+      label: "Love to help you",
+      subtext: "Our dedicated team is here to assist you every step of the way."
   },
-]
+];
+
 
 export const products_url = 'https://course-api.com/react-store-products'
 
