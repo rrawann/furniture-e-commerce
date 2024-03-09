@@ -7,16 +7,16 @@ import Button from "../Buttons";
 import { arrowRight,FaUserPlus } from 'react-icons/fa';
 const SpecialOffer = () => {
     return (
-        <div className='flex justify-between items-center  gap-10'>
-            <div >
+        <div className='ml-20 mr-20 flex justify-between items-center gap-20 max-sm:flex-col'>
+            <div>
                 <img
                     src={shoe4.src}
                     alt='product detail'
                     width={400}
                     height={400}
-                    className="mt-20 ml-20" />
+                    className="mt-20 ml-20 max-sm:ml-4" />
             </div>
-            <div className='flex flex-1 flex-col'>
+            <div className='flex-1 flex-col'>
                 <h2 className='text-4xl font-palanquin font-bold'>
                     <span className='text-customColor'>Special </span>
                     Offer
@@ -31,7 +31,8 @@ const SpecialOffer = () => {
                     desires, surpassing the loftiest expectations. Your journey with us is
                     nothing short of exceptional.
                 </p>
-                <div className='mt-11 flex flex-wrap gap-4'>
+                
+                <div className='mt-11 flex gap-4'>
     <Button label='Shop now' backgroundColor='bg-customColor' textColor='text-white' iconURL={arrowRight} />
     <Button
       label='Learn more'
