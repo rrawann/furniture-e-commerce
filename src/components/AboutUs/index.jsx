@@ -2,6 +2,7 @@ import React from 'react';
 import { services } from '../../utils/constants';
 import ServiceCard from './ServiceCard';
 import SuperQuality from './SuperQuality';
+import SpecialOffer from './SpecialOffer';
 
 const About = () => {
 
@@ -20,6 +21,7 @@ const About = () => {
 
 
       </div>
+      <SpecialOffer/>
     </div>
   );
 };
