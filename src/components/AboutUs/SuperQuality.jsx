@@ -1,8 +1,9 @@
 import { React } from "react";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../../../public/assets/images";
+import Button from "../Buttons";
 const SuperQuality = () => {
   return (
-    <div className='flex justify-between items-center gap-8 max-sm:flex-col'>
+    <div className='flex justify-center items-center gap-10 max-sm:flex-col ml-10 mr-10'>
       <div >
         <h2 className='text-5xl max-w-lg font-bold'>
           We Provide You
@@ -17,9 +18,16 @@ const SuperQuality = () => {
         <p className='mt-6 max-w-lg info-text'>
           Our dedication to detail and excellence ensures your satisfaction
         </p>
-        {/* <div className='mt-11'>
-          <Button label='View details' />
-        </div> */}
+        <div className='mt-11'>
+          {/* <Button label='View details' /> */}
+          <Button
+      label='View details' 
+      backgroundColor='bg-customColor'
+      borderColor='border-slate-gray'
+      textColor='text-white'
+    />
+        </div>
+   
       </div>
 
       <div >
@@ -31,6 +39,7 @@ const SuperQuality = () => {
       
         />
       </div>
+    
     </div>
   );
 };

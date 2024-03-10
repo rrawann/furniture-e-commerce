@@ -15,7 +15,8 @@ module.exports = {
       colors: {
         customColor: '#FAD7A0',
         iconColor:'#FCCB84',
-        bgCustomColor:'#FEF0CD'
+        bgCustomColor:'#FEF0CD',
+        "pale-blue": "#F5F6FF",
       },
       // fontSize: {
       //   xs: ['12px', '16px'],

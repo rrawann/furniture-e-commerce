@@ -3,13 +3,14 @@ import { services } from '../../utils/constants';
 import ServiceCard from './ServiceCard';
 import SuperQuality from './SuperQuality';
 import SpecialOffer from './SpecialOffer';
+import CustomerReviews from './CustomerReviews';
 
 const About = () => {
 
   return (
-    <div id="about"> 
+    <div id="about" className='mt-20'> 
      <SuperQuality />
-      <div className='flex justify-between items-center gap-9 mt-10  max-sm:flex-col'>
+      <div className='ml-20 mr-20 flex justify-between items-center gap-9 mt-10  max-sm:flex-col'>
 
         {services.map((service) => {
 
@@ -22,6 +23,8 @@ const About = () => {
 
       </div>
       <SpecialOffer/>
+      <div className='bg-pale-blue'>  <CustomerReviews /></div>
+    
     </div>
   );
 };
