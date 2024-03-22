@@ -9,7 +9,7 @@ function ServiceCard({ imgURL, label, subtext }) {
             <h1 className="mt-2 mb-2 text-2xl font-bold">{label}</h1>
 
 
-            <p className="text-1xl text-gray-500">{subtext}</p>
+            <p className="text-lg text-gray-500 mb-4">{subtext}</p>
 
 
 
