@@ -1,13 +1,14 @@
-// import { arrowRight } from "../assets/icons";
+import { arrowRight } from "../../../public/assets/icons";
 // import { offer } from "../assets/images";
 // import { Button } from "../components";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../../../public/assets/images";
 import { React } from "react";
 import Button from "../Buttons";
-import { arrowRight,FaUserPlus } from 'react-icons/fa';
+// import { arrowRight,FaUserPlus,FaShoppingCart } from 'react-icons/fa';
+console.log(arrowRight,"here");
 const SpecialOffer = () => {
     return (
-        <div className='ml-20 mr-20 flex justify-between items-center gap-20 max-sm:flex-col'>
+        <div className='ml-20 mr-20 flex justify-between items-center gap-20 max-sm:flex-col text-lg'>
             <div>
                 <img
                     src={shoe4.src}
@@ -33,7 +34,7 @@ const SpecialOffer = () => {
                 </p>
                 
                 <div className='mt-11 flex gap-4'>
-    <Button label='Shop now' backgroundColor='bg-customColor' textColor='text-white' iconURL={arrowRight} />
+    <Button label='Shop now' backgroundColor='bg-customColor' textColor='text-white' iconURL={arrowRight.src} />
     <Button
       label='Learn more'
       backgroundColor='bg-customColor'
