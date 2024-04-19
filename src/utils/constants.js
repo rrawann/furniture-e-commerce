@@ -54,6 +54,39 @@ export const reviews = [
   }
 ];
 
+export const products = [
+  {
+      imgURL: shoe4,
+      rate:3.5,
+      name: "Nike Air Jordan-01",
+      price: "$200.20",
+  },
+  {
+      imgURL: shoe5,
+      rate:4.2,
+      name: "Nike Air Jordan-10",
+      price: "$210.20",
+  },
+  {
+      imgURL: shoe6,
+      rate:7.3,
+      name: "Nike Air Jordan-100",
+      price: "$220.20",
+  },
+  {
+      imgURL: shoe7,
+      rate:4.3,
+      name: "Nike Air Jordan-001",
+      price: "$230.20",
+  },
+];
+
+export const statistics = [
+  { value: '1k+', label: 'Brands' },
+  { value: '500+', label: 'Shops' },
+  { value: '250k+', label: 'Customers' },
+];
+
 export const products_url = 'https://course-api.com/react-store-products'
 
 export const single_product_url = `https://course-api.com/react-store-single-product?id=`

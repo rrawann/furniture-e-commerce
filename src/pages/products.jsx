@@ -1,6 +1,6 @@
 import { React } from "react";
 
-function Products() {
+function GetAllProducts() {
 
     return (
         <>  
@@ -13,4 +13,4 @@ function Products() {
 }
 
 
-export default Products;
+export default GetAllProducts;

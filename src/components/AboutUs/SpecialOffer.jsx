@@ -5,10 +5,10 @@ import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6
 import { React } from "react";
 import Button from "../Buttons";
 // import { arrowRight,FaUserPlus,FaShoppingCart } from 'react-icons/fa';
-console.log(arrowRight,"here");
+
 const SpecialOffer = () => {
     return (
-        <div className='ml-20 mr-20 flex justify-between items-center gap-20 max-sm:flex-col text-lg'>
+        <div className='ml-20 mr-20 flex justify-between items-center gap-20 max-sm:flex-col max-lg:flex-col text-lg'>
             <div>
                 <img
                     src={shoe4.src}
@@ -22,12 +22,12 @@ const SpecialOffer = () => {
                     <span className='text-customColor'>Special </span>
                     Offer
                 </h2>
-                <p className='mt-4 info-text max-w-lg '>
+                <p className='mt-4  max-w-lg '>
                     Embark on a shopping journey that redefines your experience with
                     unbeatable deals. From premier selections to incredible savings, we
                     offer unparalleled value that sets us apart.
                 </p>
-                <p className='mt-6 info-text max-w-lg '>
+                <p className='mt-6  max-w-lg '>
                     Navigate a realm of possibilities designed to fulfill your unique
                     desires, surpassing the loftiest expectations. Your journey with us is
                     nothing short of exceptional.
