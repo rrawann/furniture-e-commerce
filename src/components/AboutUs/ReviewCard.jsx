@@ -12,7 +12,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
                 />
 
             </div>
-            <p className='mt-4 info-text text-lg max-w-sm text-center max-sm:ml-2'>
+            <p className='mt-4 info-text text-lg max-w-sm text-center max-sm:ml-2 '>
                 {feedback}
             </p>
             <div className="flex item-center justify-center gap-2 mt-2">
@@ -29,7 +29,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
                 </p>
             </div>
 
-            <h3 className='text-3xl font-palanquin font-bold text-center mt-2'>
+            <h3 className='text-2xl font-palanquin font-bold text-center mt-2'>
                 {customerName}
             </h3>
 
