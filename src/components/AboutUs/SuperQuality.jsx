@@ -33,7 +33,7 @@ const SuperQuality = () => {
 
       <div >
         <img
-          src={bigShoe3.src}
+          src='https://e7.pngegg.com/pngimages/145/1019/png-clipart-loveseat-couch-furniture-sofa-bed-design-angle-furniture.png'
           alt='product detail'
           width={570}
           height={522}
