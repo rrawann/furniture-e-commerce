@@ -2,7 +2,7 @@ import Button from "../Buttons";
 
 const Subscribe = () => {
   return (
-<div className="flex justify-evenly items-center gap-20 mb-40 mt-40 max-sm:flex-col max-lg:flex-col"> 
+<div id = 'contact' className="flex justify-evenly items-center gap-20 mb-40 mt-40 max-sm:flex-col max-lg:flex-col"> 
 <h3 className="text-5xl max-w-lg font-bold max-sm:pl-10">
 Sign Up for <span className="text-customColor font-bold"> Updates</span> & Newsletter
 </h3>
